@@ -23,5 +23,11 @@ body {
   font-family: 'Permanent Marker', cursive;
   font-style: italic;
   font-size: 22pt;
-  color: rgb(95, 205, 168);
+  color: rgb(101, 218, 167);
+}
+
+.defeat {
+  font-family: 'Permanent Marker', cursive;
+  color: #f75a5a;
+  font-size: 18pt;
 }
