@@ -31,3 +31,20 @@ body {
   color: #f75a5a;
   font-size: 18pt;
 }
+
+.intentional {
+  font-family: 'Permanent Marker', cursive;
+  color: rgb(180, 138, 220);
+  font-size: 22pt;
+}
+.cilmayo {
+  font-family: 'Permanent Marker', cursive;
+  color: #4ced17;
+  font-size: 22pt;
+}
+
+.moretime {
+  font-family: 'Permanent Marker', cursive;
+  color: rgb(180, 138, 220);
+  font-size: 18pt;
+}
