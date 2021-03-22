@@ -48,3 +48,9 @@ body {
   color: rgb(180, 138, 220);
   font-size: 18pt;
 }
+
+.textandpic {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+}
