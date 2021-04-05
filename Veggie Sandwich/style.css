@@ -14,7 +14,7 @@ html {
 }
 
 .titleChild {
-margin: auto;
+  margin: auto;
 }
 
 h1 {
@@ -70,4 +70,9 @@ body {
 .byline {
   font-style: italic;
   font-size: small;
+}
+
+.slideInText {
+  opacity: 0;
+  transition: opacity 250ms ease-in;
 }
