@@ -6,11 +6,23 @@ html {
   background-color: rgb(white);
 }
 
+.title {
+  width: auto;
+  height: 800px;
+  background-color: #fffcdf;
+  display: flex;
+}
+
+.titleChild {
+margin: auto;
+}
+
 h1 {
   color: rgb(101, 218, 167);
   font-weight: 800;
   font-family: 'Permanent Marker', cursive;
-  font-size: 46pt;
+  font-size: 78pt;
+  text-align: center;
 }
 
 body {
