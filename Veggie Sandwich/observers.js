@@ -1,5 +1,5 @@
 const header = document.querySelector('header');
-const sectionOne = document.querySelector('.home-intro');
+const sectionOne = document.querySelector('.title');
 
 const faders = document.querySelectorAll('.slideInText');
 const sliders = document.querySelectorAll('.slide-in');
