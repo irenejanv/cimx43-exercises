@@ -72,8 +72,28 @@ body {
   font-size: small;
 }
 
+.slide-in {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-bottom: 100%;
+    /* width: 30%; */
+  }
+
+  to {
+    margin-top: 10%;
+    /* width: 100%; */
+  }
+}
+
 .fade-in {
-  /* background-color: pink; */
   opacity: 0;
-  transition: opacity 250ms ease-in;
+  transition: opacity 500ms ease-in;
+}
+
+.fade-in.appear {
+  opacity: 1;
 }
