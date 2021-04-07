@@ -72,7 +72,8 @@ body {
   font-size: small;
 }
 
-.slideInText {
+.fade-in {
+  /* background-color: pink; */
   opacity: 0;
   transition: opacity 250ms ease-in;
 }
