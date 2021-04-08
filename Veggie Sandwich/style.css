@@ -13,10 +13,6 @@ html {
   display: flex;
 }
 
-.titleChild {
-  margin: auto;
-}
-
 h1 {
   color: rgb(101, 218, 167);
   font-weight: 800;
@@ -75,18 +71,24 @@ body {
 .slide-in {
   animation-duration: 3s;
   animation-name: slidein;
+  margin: auto;
 }
 
 @keyframes slidein {
   from {
-    margin-bottom: 100%;
+    margin-bottom: 10%;
+    opacity: 0;
     /* width: 30%; */
   }
 
-  to {
-    margin-top: 10%;
-    /* width: 100%; */
-  }
+  /* to {
+  /* opacity: 1; */
+  /* margin-bottom: 10%; */
+  /* width: 100%; */
+}
+
+.slide-in.appear {
+  opacity: 1;
 }
 
 .fade-in {
@@ -96,4 +98,10 @@ body {
 
 .fade-in.appear {
   opacity: 1;
+}
+
+.sandwich {
+  /* position: fixed;
+  top: 20%;
+  margin-left: 45%; */
 }
