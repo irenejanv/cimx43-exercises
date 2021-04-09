@@ -37,7 +37,7 @@ body {
 .defeat {
   font-family: 'Permanent Marker', cursive;
   color: #f75a5a;
-  font-size: 18pt;
+  font-size: 40pt;
 }
 
 .intentional {
@@ -68,23 +68,11 @@ body {
   font-size: small;
 }
 
-.slide-in {
-  animation-duration: 3s;
-  animation-name: slidein;
+.titleChild {
   margin: auto;
 }
 
-@keyframes slidein {
-  from {
-    margin-bottom: 10%;
-    opacity: 0;
-    /* width: 30%; */
-  }
-
-  /* to {
-  /* opacity: 1; */
-  /* margin-bottom: 10%; */
-  /* width: 100%; */
+.slide-in {
 }
 
 .slide-in.appear {
@@ -100,8 +88,20 @@ body {
   opacity: 1;
 }
 
-.sandwich {
-  /* position: fixed;
-  top: 20%;
-  margin-left: 45%; */
+/* https://stackoverflow.com/questions/16989585/css-3-slide-in-from-left-transition */
+
+.from-left {
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  transition: opacity 250ms ease-in, -webkit-transform 400ms ease-in;
+  transition: opacity 250ms ease-in, transform 400ms ease-in;
+  transition: opacity 250ms ease-in, transform 400ms ease-in,
+    -webkit-transform 400ms ease-in;
+  opacity: 0;
+}
+
+.from-left.appear {
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+  opacity: 1;
 }
