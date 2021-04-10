@@ -105,3 +105,12 @@ body {
   transform: translateX(0);
   opacity: 1;
 }
+
+.sandwich {
+  width: 450px;
+  margin: 15px auto;
+  position: relative;
+}
+
+/* .sandwich {
+} */
