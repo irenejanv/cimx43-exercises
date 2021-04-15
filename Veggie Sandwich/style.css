@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Permanent+Marker&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
 html {
   padding: 5%;
   padding-top: 2%;
@@ -19,31 +21,45 @@ h1 {
   font-family: 'Permanent Marker', cursive;
   font-size: 78pt;
   text-align: center;
+  margin-bottom: 5%;
+  line-height: 1;
+}
+
+.delay {
+  /* transition-delay: 2s; */
+}
+
+.subtitle {
+  font-family: 'Architects Daughter', cursive;
+  margin-top: 0%;
+  text-align: right;
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Architects Daughter', cursive;
   font-size: large;
   line-height: 160%;
+  line-height: 1;
+  text-align: center;
 }
 
 .italics {
   font-family: 'Permanent Marker', cursive;
   font-style: italic;
-  font-size: 22pt;
+  font-size: 30pt;
   color: rgb(101, 218, 167);
 }
 
 .defeat {
   font-family: 'Permanent Marker', cursive;
   color: #f75a5a;
-  font-size: 40pt;
+  font-size: 45pt;
 }
 
 .intentional {
   font-family: 'Permanent Marker', cursive;
   color: rgb(180, 138, 220);
-  font-size: 22pt;
+  font-size: 30pt;
 }
 .cilmayo {
   font-family: 'Permanent Marker', cursive;
@@ -54,13 +70,16 @@ body {
 .moretime {
   font-family: 'Permanent Marker', cursive;
   color: rgb(180, 138, 220);
-  font-size: 18pt;
+  font-size: 30pt;
 }
 
 .textandpic {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
+  font-size: 25px;
+  color: #344739;
+  line-height: 1.5;
 }
 
 .byline {
@@ -70,9 +89,6 @@ body {
 
 .titleChild {
   margin: auto;
-}
-
-.slide-in {
 }
 
 .slide-in.appear {
@@ -110,6 +126,12 @@ body {
   width: 450px;
   margin: 15px auto;
   position: relative;
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 }
 
 /* .sandwich {

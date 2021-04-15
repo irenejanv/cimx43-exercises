@@ -28,3 +28,7 @@ faders.forEach(fader => {
 sliders.forEach(slider => {
   appearOnScroll.observe(slider);
 });
+
+$(function () {
+  $('delay').delay(5000).fadeIn(500);
+});
