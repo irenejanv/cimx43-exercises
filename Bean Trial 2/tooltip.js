@@ -1,6 +1,7 @@
 // 0. Set things up so you can interact with blue rectangles.
 let dish_labels = document.getElementsByClassName('dish');
 let dishes = Array.from(dish_labels);
+// to do this for text boxes, (1) svg text elements need a class "dish_text" and them make sure they have an idea that is "dish-0-text". Repeat lines 2-3 and then lines 5-8.
 for (let i = 0; i < dishes.length; i++) {
   dishes[i].addEventListener('mouseenter', showIllustration);
   dishes[i].addEventListener('mouseleave', hideIllustration);
