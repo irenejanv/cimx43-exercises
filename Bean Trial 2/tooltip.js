@@ -10,22 +10,24 @@ for (let i = 0; i < dishes.length; i++) {
 function showIllustration() {
   // What food are we going to show?
   // Check the id of the rectangle we're hovering over.
+
   let id = this.id;
   console.log(id);
-
-  // Make sure we use the right picture
-  document
-    .getElementById('show-dish-picture')
-    .setAttribute('src', 'img/' + this.id + '.jpg');
-
+  let dish_number = id.split('-')[1];
   // Show the box the picture is in:
-  document.getElementById('show-dish').style.display = 'block';
-  document.getElementById('show-dish').style.backgroundColor = 'blue';
-  document.getElementById('show-dish').style.padding = '4px';
-  document.getElementById('show-dish').style.maxWidth = '60px';
+  document.getElementById('show-dish-' + dish_number).style.display = 'block';
+  document.getElementById('show-dish-' + dish_number).style.backgroundColor =
+    'white';
+  document.getElementById('show-dish-' + dish_number).style.width = '150px';
+  document.getElementById('show-dish-' + dish_number).style.height = '150px';
 }
 
 // 2. What happens when you mouse out of the blue rectangle
 function hideIllustration() {
-  // document.getElementById('show-dish').style.display = 'none';
+  let id = this.id;
+  console.log(id);
+  let dish_number = id.split('-')[1];
+
+  // Show the box the picture is in:
+  document.getElementById('show-dish-' + dish_number).style.display = 'none';
 }

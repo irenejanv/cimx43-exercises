@@ -57,6 +57,25 @@ h2 {
   color: black;
 }
 
+.day {
+  position: relative;
+}
+
+#show-dish-0,
+#show-dish-1 {
+  position: absolute;
+  z-index: 1;
+  max-width: 500px;
+  top: -5px;
+  left: 105px;
+}
+
+#show-dish-picture {
+  width: 150px;
+  height: 150px;
+  max-width: 500px;
+}
+
 @media (max-width: 1000px) {
   .bean_key {
     display: block;
