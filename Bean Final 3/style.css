@@ -81,7 +81,10 @@ h2 {
 #show-dish-div-Oct2,
 #show-dish-div-Oct4,
 #show-dish-div-Oct5,
-#show-dish-div-Oct10 {
+#show-dish-div-Oct7,
+#show-dish-div-Oct8,
+#show-dish-div-Oct10,
+#show-dish-div-Oct11 {
   position: absolute;
   z-index: 1;
   max-width: 500px;
