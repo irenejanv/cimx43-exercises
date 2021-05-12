@@ -21,10 +21,12 @@ p {
 }
 
 .sticky {
-  background-color: #d0ecf0;
+  background-color:#d0ecf0;
+  box-shadow: 0 10px 2px -2px rgba(0, 0, 0, 0.2);
   position: sticky;
   top: 0;
-  padding: 20px;
+  /* padding: 20px; */
+  z-index: 3;
 }
 
 .bean_key {
@@ -61,8 +63,12 @@ h2 {
     position: relative;
   }
 
-#show-dish-0,
-#show-dish-1 {
+
+/* tooltip container */
+#show-dish-div-18,
+#show-dish-div-21, 
+#show-dish-div-23,
+#show-dish-div-25 {
   position: absolute;
   z-index: 1;
   max-width: 500px;
@@ -70,10 +76,15 @@ h2 {
   left: 105px;
 }
 
-#show-dish-picture {
-  width: 150px;
-  height: 150px;
+/* tooltip image */
+.tooltip .show-dish-picture {
+  visibility: hidden;
+    width: 160px;
   max-width: 500px;
+}
+
+.tooltip:hover .show-dish-picture {
+    visibility: visible;
 }
 
 
