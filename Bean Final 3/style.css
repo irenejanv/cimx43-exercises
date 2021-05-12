@@ -19,7 +19,9 @@ h1 {
 p {
   font-size: 25px;
   text-align: center;
-  padding: 3%;
+  margin-left: 15%;
+  margin-right: 15%;
+  
 }
 
 
@@ -72,7 +74,14 @@ h2 {
 #show-dish-div-18,
 #show-dish-div-21, 
 #show-dish-div-23,
-#show-dish-div-25 {
+#show-dish-div-25,
+#show-dish-div-27,
+#show-dish-div-29,
+#show-dish-div-30,
+#show-dish-div-Oct2,
+#show-dish-div-Oct4,
+#show-dish-div-Oct5,
+#show-dish-div-Oct10 {
   position: absolute;
   z-index: 1;
   max-width: 500px;
